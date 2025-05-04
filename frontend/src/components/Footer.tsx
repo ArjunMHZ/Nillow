@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Millow</h3>
+                        <h3 className="text-xl font-bold mb-4">Nillow</h3>
                         <p className="text-gray-300">Decentralized real estate marketplace powered by blockchain technology.</p>
                     </div>
                     <div>
@@ -28,14 +28,14 @@ const Footer = () => {
                     <div>
                         <h4 className="font-semibold mb-4">Contact Us</h4>
                         <ul className="space-y-2">
-                            <li className="text-gray-300">support@millow.com</li>
+                            <li className="text-gray-300">support@nillow.com</li>
                             <li className="text-gray-300">+1 (555) 123-4567</li>
                             <li className="text-gray-300">123 Blockchain Ave, Crypto City</li>
                         </ul>
                     </div>
                 </div>
                 <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                    <p>© {new Date().getFullYear()} Millow. All rights reserved. Powered by Ethereum.</p>
+                    <p>© {new Date().getFullYear()} Nillow. All rights reserved. Powered by Ethereum & ArjunMHZ.</p>
                 </div>
             </div>
         </footer>

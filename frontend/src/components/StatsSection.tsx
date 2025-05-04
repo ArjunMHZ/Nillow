@@ -9,7 +9,7 @@ const StatsSection = () => {
     return (
         <section className="py-12 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-center text-[#202020] mb-12">Why Choose Millow?</h2>
+                <h2 className="text-3xl font-bold text-center text-[#202020] mb-12">Why Choose Nillow?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {stats.map((stat, index) => (
                         <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center hover:scale-110 hover:ring-2 hover:ring-[#4fb646]">

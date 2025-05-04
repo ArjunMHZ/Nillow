@@ -29,7 +29,7 @@ const Navigation = ({ account, setAccount }: {account: string | null, setAccount
 
                 {/* Brand */}
                 <div className="flex items-center space-x-2">
-                    <img src={logo} alt="Millow" className="h-12 w-auto" />
+                    <img src={logo} alt="Nillow" className="h-12 w-auto" />
                     <h1 className="text-[#6C63FF] text-2xl md:text-3xl font-extrabold">Nillow</h1>
                 </div>
 

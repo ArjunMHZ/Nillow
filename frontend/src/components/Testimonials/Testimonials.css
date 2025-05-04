@@ -1,0 +1,33 @@
+.testimonial-marquee {
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-track {
+    display: flex;
+    gap: 2rem;
+    animation: scroll 10s linear infinite;
+}
+
+.testimonial-card {
+    flex: 0 0 300px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Optional: Pause on hover */
+.testimonial-marquee:hover .testimonial-track {
+    animation-play-state: paused;
+}
+

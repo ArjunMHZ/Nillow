@@ -26,7 +26,7 @@ import rawConfig from './config.json';
 import Footer from './components/Footer';
 import HowItWorks from './components/HowItWorks';
 import StatsSection from './components/StatsSection';
-import Testimonials from './components/Testimonials';
+import Testimonials from './components/Testimonials/Testimonials';
 import HomeCard from './components/HomeCard';
 const config = rawConfig as Config;
 
